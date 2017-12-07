@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tetiana's Resume</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $(".flip").click(function(){
+        $(this).next(".panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style type="text/css">
+	
+body{
+	background-image: url(images/green-chameleon-21532.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+h1 {
+	font-family: patua-one;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 7px 0px 5px #9D5F60;
+	opacity: 1;
+	margin-left: 0px;
+	color: #140505;
+	letter-spacing: 5px;
+	font-size: 50px;
+	margin-top: 120px;
+	margin-bottom: 100px;
+}
+	
+.panel, .flip {
+	padding: 10px;
+	text-align: center;
+	border: solid 1px #c3c3c3;
+	background-image: -webkit-linear-gradient(270deg,rgba(189,124,125,0.70) 0%,rgba(186,154,154,0.70) 0%,rgba(214,196,196,0.70) 37.89%);
+	background-image: -moz-linear-gradient(270deg,rgba(189,124,125,0.70) 0%,rgba(186,154,154,0.70) 0%,rgba(214,196,196,0.70) 37.89%);
+	background-image: -o-linear-gradient(270deg,rgba(189,124,125,0.70) 0%,rgba(186,154,154,0.70) 0%,rgba(214,196,196,0.70) 37.89%);
+	background-image: linear-gradient(180deg,rgba(189,124,125,0.70) 0%,rgba(186,154,154,0.70) 0%,rgba(214,196,196,0.70) 37.89%);
+	font-family: patua-one;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	text-shadow: 7px 0px 5px #9D5F60;
+	opacity: 1;
+	color: #140505;
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin-top: 0px;
+	
+}
+
+.panel {
+	padding: 30px;
+    display: none;
+	font-family: patua-one;
+	font-style: normal;
+	font-weight: 100;
+	text-align: left;
+	text-shadow: 7px 0px 5px #9D5F60;
+	opacity: 1;
+	color: #140505;
+	font-size: 20px;
+	margin-top: 0px;
+	
+}
+.experience{
+	border: 1px solid #140505;
+	}
+	
+#linkedin{
+	text-align: center;	
+	}
+	
+#home{
+	width: 50px;
+	height: 15px;
+	margin-left: 30px;	
+	margin-top: 50px;
+	font-family: "patua-one";
+	font-size: 30px;
+	font-weight: 400;
+	}
+	
+#button{
+	background-color: #B59191;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 30px;	
+	margin-top: 50px;
+	font-family: "patua-one";
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #504A4A;
+	}
+	
+	
+a:link {color:white;}
+a:visited {color:#D3B5B6;}
+a:hover {background:#A37F7F;}
+</style>
+</head>
+
+<body>
+
+
+
+<!--Home Button-->
+<div id="home">
+	<button id="button"><a href="homepage.php">HOME</a> </button>
+</div>
+
+<h1>Resume</h1>
+	
+	
+<!--sliding down menu-->
+<!--SKILLS-->
+
+<div class="flip">Skills</div>
+<div class="panel">
+<ul>
+<li>Ability to work in a fast-paced, team oriented environment</li>
+<li>Excellent communication skills with diverse populations</li>
+<li>Ability to speak 2 languages: Russian (fluent), English (fluent)</li>
+<li>Strong skills in Microsoft Office Applications</li> 
+<li>Interpreting/translating skills</li>
+<li>Excellent time management skills</li>
+<li>Office management skills</li>
+<li>Research and analysis skills gained through academic background</li>
+<li>Attention to details, ability to work on multiple projects simultaneously</li>
+<li>Creative thinking beyond the boundaries of the existing industry standards so as to meet the client’s needs</li>
+</ul>
+
+</div>
+
+
+<!--EDUCATION-->
+
+<div class="flip">Education</div>
+<div class="panel">
+<div class="experience">
+  <h4>Kharkiv University of Humanities "People's Ukrainian Academy"</h4>
+  Master of Arts (M.A.), Linguistics <br>
+  Sep. 2007 – May 2013 <br>
+  Translator - Interpreter of English and German Languages
+  <br><br>
+</div>
+
+<div class="experience">
+  <h4>University of Missouri-Saint Louis</h4>
+  Bachelor of Science (B.S.), Information Systems <br>
+  Jan. 2015 - Dec. 2018 <br> <br></div>
+</div>
+
+
+<!--WORK EXPERIENCE-->
+
+<div class="flip">Work Experience</div>
+<div class="panel">
+<div class="experience">
+  <h4>Sephora</h4>
+  Sales Representative / Certified Makeup Artist <br>
+  Apr. 2015 - Present <br><br>
+</div>
+
+<div class="experience">
+    <h4>English Tutor</h4>
+	Self-employed <br>
+Nov. 2011 - Jun. 2013 <br><br>
+</div>
+
+<div class="experience">
+  <h4>Papillon Hotels</h4>
+  Guest Relations Department Representative <br>
+  May 2010 - Oct. 2011
+  <br><br>
+</div>
+</div>
+
+
+<!--My LinkedIN-->
+
+<div class="flip">
+ My LinkedIn
+</div>
+<div class="panel" id="linkedin">
+For more details check out my LinkedIn profile by clicking this link <a href="https://www.linkedin.com/in/tetiana-arkharova/" target="_blank">My LinkedIn</a>.
+</div>
+<p> </p>
+</body>
+</html>
